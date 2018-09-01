@@ -39,8 +39,8 @@ class Login extends Component {
                     <div className="row">
                         <div className="col-md-8 m-auto">
                             <h1 className="display-4 text-center">Log In</h1>
-                            <p className="lead text-center">Sign in to your TennisLog account</p>
-                            <form onSubmit={this.onSubmit}>
+                            <p className="lead text-center">Sign in to your Tennis Log account</p>
+                            <form onSubmit={this.onSubmit} noValidate>
                                 <div className="form-group">
                                     <input
                                         type="email"

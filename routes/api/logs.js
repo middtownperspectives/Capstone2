@@ -52,7 +52,6 @@ router.post('/', passport.authenticate('jwt', { session: false }), (req, res) =>
 
     const newLog = new Log({
         user: req.user.id,
-        name: req.body.name,
         location: req.body.location,
         sessionDate: req.body.sessionDate,
         sessionType: req.body.sessionType,
